@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #9fc7f8;
+  padding: 40px;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+.student-list {
+  list-style-type: none; /* remove default bullets */
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background-color: #93aacf;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.student-list li {
+  background-color: #d6eaff;
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #1a3c60;
+  transition: background-color 0.3s;
+}
+
+.student-list li:hover {
+  background-color: #c0dcff;
+  cursor: pointer;
+}
